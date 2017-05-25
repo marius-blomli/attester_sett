@@ -1,11 +1,3 @@
-function onOpen() {
-  var ui = SpreadsheetApp.getUi();
-  ui.createMenu('Vandelskontroll')
-  .addItem('Match registrerte attester', 'matchAttester')
-  .addItem('Send eposter', 'sendEposter')
-  .addToUi();
-}
-
 function matchAttester() {
   var ui = SpreadsheetApp.getUi();
 
